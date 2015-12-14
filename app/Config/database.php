@@ -72,7 +72,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => '',
-		'database' => 'blog_creator_database',
+		'database' => 'bog_creator_database',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
@@ -83,7 +83,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => '',
-		'database' => 'blog_creator_database',
+		'database' => 'bog_creator_database',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);

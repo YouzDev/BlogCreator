@@ -7,7 +7,7 @@
 		echo $this->Form->input('prenom');
 		echo $this->Form->input('email');
 		echo $this->Form->input('login');
-		echo $this->Form->input('mdp');
+		echo $this->Form->input('password');
 		echo $this->Form->input('ddn');
 		echo $this->Form->input('avatar');
 	?>

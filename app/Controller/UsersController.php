@@ -75,15 +75,20 @@ class UsersController extends AppController {
  * @return void
  */
 	public function inscription() {
-		if ($this->request->is('post')) {
-			$this->User->create();
-			if ($this->User->save($this->request->data)) {
-				$this->Flash->success(__('The user has been saved.'));
-				return $this->redirect(array('action' => 'index'));
-			} else {
-				$this->Flash->error(__('The user could not be saved. Please, try again.'));
-			}
+	if($this->request->is('post')) {
+		$tableau = $this->request->data;
+		$tableau['User']['id'] = null;
+		if(!empty($tableau['User']['password'])) {
+			$tableau['User']['password'] = Security::hash($tableau['User']['password'], null,true);
 		}
+
+		if($this->User->save($tableau, true, array('login', 'nom', 'prenom', 'password', 'email', 'ddn'))) {
+			$this->Session->setFlash("Votre inscription à été faite !"); 
+		} else {
+			
+		}
+	}
+
 	}
 
 /**
