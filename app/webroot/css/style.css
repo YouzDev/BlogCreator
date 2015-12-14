@@ -13,11 +13,11 @@ body{
 header {
 
 	background-color: #2b343d;
-	padding: 1%;
+	padding: 1.8%;
 	position: relative;
-	margin: 0;
+	
 	text-align: center;
-	width: auto;
+	color: white;
 
 }
 
@@ -79,6 +79,7 @@ ul li a:hover {
 	text-align: center;
 }
 
+<<<<<<< HEAD
 .success {
 	clear: both;
 	color: #fff;
@@ -102,3 +103,25 @@ ul li a:hover {
 	padding: 10px 20px 40px 20px;
 	overflow: auto;
 }
+=======
+#selection ul li{
+
+	margin-left: 21%;
+	margin-top: 10%;
+}
+
+img {
+
+	width: 80%;
+}
+
+#profil {
+
+	float: right;
+}
+
+#profil img {
+
+	width: 15%;
+}
+>>>>>>> 7ca5c4d4defb25e5fe83d02ba4aa212897e93c69

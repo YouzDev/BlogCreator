@@ -27,7 +27,7 @@
  */
 	Router::connect('/', array('controller' => 'Pages', 'action' => 'display', 'home'));
 
-	Router::connect('/BlogCreator/', array('controller' => 'BlogCreator', 'action' => 'dashboard'));
+	Router::connect('/Blog', array('controller' => 'Blog', 'action' => 'dashboard'));
 
 
 
