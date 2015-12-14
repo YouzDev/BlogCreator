@@ -13,11 +13,11 @@ body{
 header {
 
 	background-color: #2b343d;
-	padding: 1%;
+	padding: 1.8%;
 	position: relative;
-	margin: 0;
+	
 	text-align: center;
-	width: auto;
+	color: white;
 
 }
 
@@ -77,4 +77,25 @@ ul li a:hover {
 .log {
 
 	text-align: center;
+}
+
+#selection ul li{
+
+	margin-left: 21%;
+	margin-top: 10%;
+}
+
+img {
+
+	width: 80%;
+}
+
+#profil {
+
+	float: right;
+}
+
+#profil img {
+
+	width: 15%;
 }
