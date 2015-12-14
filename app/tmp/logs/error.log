@@ -14833,3 +14833,39 @@ Stack Trace:
 #1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
 #2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2015-12-14 17:14:11 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:14:11 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:16:20 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:16:20 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
