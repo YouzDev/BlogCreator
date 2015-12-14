@@ -26,15 +26,29 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version());
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="robots" content="noindex">
     <title>
-      
+
     </title>
     <?php
-        echo $this->Html->meta('icon');
-        echo $this->Html->css('bootstrap');
-        echo $this->Html->css('style');
-        echo $this->Html->script('script');
+    echo $this->Html->meta('icon');
+    echo $this->Html->css('bootstrap');
+    echo $this->Html->css('style');
+    echo $this->Html->script('script');
     ?>
 
-<h1>YEAH</h1>
-
+    <header>
+        <p>Bienvenue sur MyBlog</p>
+        <div id="profil">Mon Profil <?php echo $this->Html->image('profil.png', ['alt' => "gerer"]) ?></div>
+    </header>
 </head>
+
+<body>
+
+    <div id="selection">
+            <ul>
+                <li><a href="#">Gerer mes blogs <?php echo $this->Html->image('gerer.png', ['alt' => "gerer"]) ?></a></li>
+                <li><a href="#">Articles <?php echo $this->Html->image('article.png', ['alt' => "gerer"]) ?></a></li>
+                <li><a href="#">Commentaire <?php echo $this->Html->image('post.png', ['alt' => "gerer"]) ?></a></li>
+            </ul>
+        </div>
+        
+</body>

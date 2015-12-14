@@ -16,7 +16,7 @@
         <?php
                 echo $this->Html->link(
                     'Pas encore de compte, Inscrit-toi ici',
-                    '/Users/inscription/'
+                    'inscription/'
                     );
         ?>
     </div>
