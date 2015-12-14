@@ -79,6 +79,31 @@ ul li a:hover {
 	text-align: center;
 }
 
+<<<<<<< HEAD
+.success {
+	clear: both;
+	color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	background: #3B8230;
+	background-repeat: repeat-x;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#76BF6B), to(#3B8230));
+	background-image: -webkit-linear-gradient(top, #76BF6B, #3B8230);
+	background-image: -moz-linear-gradient(top, #76BF6B, #3B8230);
+	background-image: -ms-linear-gradient(top, #76BF6B, #3B8230);
+	background-image: -o-linear-gradient(top, #76BF6B, #3B8230);
+	background-image: linear-gradient(top, #76BF6B, #3B8230);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	text-align: center;
+}
+
+#content{
+	background: #F0FFFF;
+	clear: both;
+	color: #333;
+	padding: 10px 20px 40px 20px;
+	overflow: auto;
+}
+=======
 #selection ul li{
 
 	margin-left: 21%;
@@ -99,3 +124,4 @@ img {
 
 	width: 15%;
 }
+>>>>>>> 7ca5c4d4defb25e5fe83d02ba4aa212897e93c69
