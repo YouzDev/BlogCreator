@@ -1,3 +1,8 @@
+		<div id="content">
+			<?php echo $this->Session->flash(); ?>
+
+			<?php echo $this->fetch('content'); ?>
+		</div>
 <div class="log">
 	<?php echo $this->Form->create('User'); ?>
 	<fieldset>

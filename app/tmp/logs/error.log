@@ -14345,3 +14345,93 @@ Request URL: /BlogCreator/fonts/glyphicons-regular.ttf
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-12-14 16:38:49 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /BlogCreator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 16:38:49 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /BlogCreator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 16:38:52 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /BlogCreator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 16:38:52 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /BlogCreator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 16:42:56 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /BlogCreator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 16:42:56 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /BlogCreator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 16:43:02 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /BlogCreator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 16:43:03 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /BlogCreator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 16:43:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /BlogCreator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 16:43:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /BlogCreator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
