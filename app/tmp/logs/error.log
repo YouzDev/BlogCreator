@@ -14915,39 +14915,107 @@ Stack Trace:
 #1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
 #2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
->>>>>>> 7ca5c4d4defb25e5fe83d02ba4aa212897e93c69
-2015-12-14 17:22:36 Error: [MissingControllerException] Controller class FontsController could not be found.
+<<<<<<< HEAD
+2015-12-14 17:14:11 Error: [MissingControllerException] Controller class FontsController could not be found.
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
 )
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:14:11 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:16:20 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:16:20 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+=======
+>>>>>>> 7ca5c4d4defb25e5fe83d02ba4aa212897e93c69
+<<<<<<< HEAD
+2015-12-14 17:22:36 Error: [MissingControllerException] Controller class FontsController could not be found.
+=======
+>>>>>>> 2e7d26ebc9ba85e9ff063a87c43054d8f1443896
+2015-12-14 17:26:24 Error: [MissingControllerException] Controller class FontsController could not be found.
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+<<<<<<< HEAD
 Request URL: /BlogCreator/fonts/glyphicons-regular.woff
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2015-12-14 17:22:37 Error: [MissingControllerException] Controller class FontsController could not be found.
+=======
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:26:24 Error: [MissingControllerException] Controller class FontsController could not be found.
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
 )
+<<<<<<< HEAD
 Request URL: /BlogCreator/fonts/glyphicons-regular.ttf
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2015-12-14 17:22:38 Error: [MissingControllerException] Controller class FontsController could not be found.
+=======
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:28:15 Error: [MissingControllerException] Controller class FontsController could not be found.
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
 )
+<<<<<<< HEAD
 Request URL: /BlogCreator/fonts/glyphicons-regular.woff
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2015-12-14 17:22:38 Error: [MissingControllerException] Controller class FontsController could not be found.
+=======
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:28:15 Error: [MissingControllerException] Controller class FontsController could not be found.
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
 )
+<<<<<<< HEAD
 Request URL: /BlogCreator/fonts/glyphicons-regular.ttf
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
@@ -14973,37 +15041,674 @@ Stack Trace:
 #4 [internal function]: App::shutdown()
 #5 {main}
 2015-12-14 17:25:08 Error: [MissingControllerException] Controller class FontsController could not be found.
+=======
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:28:38 Error: [MissingControllerException] Controller class FontsController could not be found.
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
 )
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:28:38 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:35:33 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:35:33 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 17:35:40 Error: [MissingActionException] Action BlogController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'index',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-14 20:15:05 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 20:15:05 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 20:27:11 Error: [MissingControllerException] Controller class Onglets-1.htmController could not be found.
+Exception Attributes: array (
+  'class' => 'Onglets-1.htmController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/onglets-1.htm
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 20:27:19 Error: [MissingControllerException] Controller class Onglets-3.htmController could not be found.
+Exception Attributes: array (
+  'class' => 'Onglets-3.htmController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/onglets-3.htm
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 20:28:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/css/onglet.gif
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 20:28:26 Error: [MissingControllerException] Controller class Onglets-1.htmController could not be found.
+Exception Attributes: array (
+  'class' => 'Onglets-1.htmController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/onglets-1.htm
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 20:31:18 Error: [MissingControllerException] Controller class Onglets-3.htmController could not be found.
+Exception Attributes: array (
+  'class' => 'Onglets-3.htmController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/onglets-3.htm
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 20:32:38 Error: [MissingControllerException] Controller class Dashboard.ctpController could not be found.
+Exception Attributes: array (
+  'class' => 'Dashboard.ctpController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/dashboard.ctp
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 20:33:09 Error: [MissingControllerException] Controller class Onglets-3.htmController could not be found.
+Exception Attributes: array (
+  'class' => 'Onglets-3.htmController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/onglets-3.htm
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 20:59:49 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 20:59:49 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:28:37 Error: [MissingControllerException] Controller class InscriptionController could not be found.
+Exception Attributes: array (
+  'class' => 'InscriptionController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Inscription
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:28:42 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:28:42 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:29:33 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:29:33 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:44:25 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:44:25 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:45:00 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:45:00 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:45:08 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:45:08 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:45:29 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:45:30 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:45:38 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:45:39 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:45:54 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:45:54 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:45:59 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:45:59 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:46:24 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:46:24 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:47:34 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:47:35 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:48:22 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:48:22 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:48:43 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:48:43 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:50:38 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:50:38 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:51:00 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:51:00 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:51:12 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:51:12 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:55:57 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:55:57 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:59:57 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:59:58 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 21:59:58 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:00:16 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:00:17 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:00:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:00:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:01:10 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:01:10 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:01:19 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:01:20 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:01:50 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:01:50 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:01:53 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:01:53 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:01:54 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:01:54 Error: [MissingControllerException] Controller class FontsController could not be found.
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+<<<<<<< HEAD
 Request URL: /BlogCreator/fonts/glyphicons-regular.woff
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2015-12-14 17:25:08 Error: [MissingControllerException] Controller class FontsController could not be found.
+=======
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:02:19 Error: [MissingControllerException] Controller class FontsController could not be found.
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
 )
+<<<<<<< HEAD
 Request URL: /BlogCreator/fonts/glyphicons-regular.ttf
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2015-12-14 17:25:09 Error: [MissingControllerException] Controller class FontsController could not be found.
+=======
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:02:19 Error: [MissingControllerException] Controller class FontsController could not be found.
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
 )
+<<<<<<< HEAD
 Request URL: /BlogCreator/fonts/glyphicons-regular.woff
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2015-12-14 17:25:09 Error: [MissingControllerException] Controller class FontsController could not be found.
+=======
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:02:20 Error: [MissingControllerException] Controller class FontsController could not be found.
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
 )
+<<<<<<< HEAD
 Request URL: /BlogCreator/fonts/glyphicons-regular.ttf
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
@@ -15029,37 +15734,78 @@ Stack Trace:
 #4 [internal function]: App::shutdown()
 #5 {main}
 2015-12-14 17:39:34 Error: [MissingControllerException] Controller class FontsController could not be found.
+=======
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:02:20 Error: [MissingControllerException] Controller class FontsController could not be found.
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
 )
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:02:21 Error: [MissingControllerException] Controller class FontsController could not be found.
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+<<<<<<< HEAD
 Request URL: /BlogCreator/fonts/glyphicons-regular.woff
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2015-12-14 17:39:35 Error: [MissingControllerException] Controller class FontsController could not be found.
+=======
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:02:21 Error: [MissingControllerException] Controller class FontsController could not be found.
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
 )
+<<<<<<< HEAD
 Request URL: /BlogCreator/fonts/glyphicons-regular.ttf
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2015-12-14 17:39:36 Error: [MissingControllerException] Controller class FontsController could not be found.
+=======
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:02:29 Error: [MissingControllerException] Controller class FontsController could not be found.
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
 )
+<<<<<<< HEAD
 Request URL: /BlogCreator/fonts/glyphicons-regular.woff
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2015-12-14 17:39:36 Error: [MissingControllerException] Controller class FontsController could not be found.
+=======
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:02:29 Error: [MissingControllerException] Controller class FontsController could not be found.
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
 )
+<<<<<<< HEAD
 Request URL: /BlogCreator/fonts/glyphicons-regular.ttf
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
@@ -15075,37 +15821,78 @@ Stack Trace:
 #4 [internal function]: App::shutdown()
 #5 {main}
 2015-12-14 17:40:33 Error: [MissingControllerException] Controller class FontsController could not be found.
+=======
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:02:36 Error: [MissingControllerException] Controller class FontsController could not be found.
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
 )
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:02:36 Error: [MissingControllerException] Controller class FontsController could not be found.
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+<<<<<<< HEAD
 Request URL: /BlogCreator/fonts/glyphicons-regular.woff
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2015-12-14 17:40:33 Error: [MissingControllerException] Controller class FontsController could not be found.
+=======
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:02:40 Error: [MissingControllerException] Controller class FontsController could not be found.
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
 )
+<<<<<<< HEAD
 Request URL: /BlogCreator/fonts/glyphicons-regular.ttf
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2015-12-14 17:40:34 Error: [MissingControllerException] Controller class FontsController could not be found.
+=======
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:02:40 Error: [MissingControllerException] Controller class FontsController could not be found.
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
 )
+<<<<<<< HEAD
 Request URL: /BlogCreator/fonts/glyphicons-regular.woff
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2015-12-14 17:40:34 Error: [MissingControllerException] Controller class FontsController could not be found.
+=======
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:03:25 Error: [MissingControllerException] Controller class FontsController could not be found.
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
 )
+<<<<<<< HEAD
 Request URL: /BlogCreator/fonts/glyphicons-regular.ttf
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
@@ -15141,37 +15928,78 @@ Stack Trace:
 #4 [internal function]: App::shutdown()
 #5 {main}
 2015-12-14 17:43:31 Error: [MissingControllerException] Controller class FontsController could not be found.
+=======
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:03:25 Error: [MissingControllerException] Controller class FontsController could not be found.
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
 )
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:03:52 Error: [MissingControllerException] Controller class FontsController could not be found.
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+<<<<<<< HEAD
 Request URL: /BlogCreator/fonts/glyphicons-regular.woff
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2015-12-14 17:43:31 Error: [MissingControllerException] Controller class FontsController could not be found.
+=======
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:03:52 Error: [MissingControllerException] Controller class FontsController could not be found.
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
 )
+<<<<<<< HEAD
 Request URL: /BlogCreator/fonts/glyphicons-regular.ttf
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2015-12-14 17:43:32 Error: [MissingControllerException] Controller class FontsController could not be found.
+=======
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:04:15 Error: [MissingControllerException] Controller class FontsController could not be found.
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
 )
+<<<<<<< HEAD
 Request URL: /BlogCreator/fonts/glyphicons-regular.woff
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2015-12-14 17:43:32 Error: [MissingControllerException] Controller class FontsController could not be found.
+=======
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:04:15 Error: [MissingControllerException] Controller class FontsController could not be found.
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
 Exception Attributes: array (
   'class' => 'FontsController',
   'plugin' => NULL,
 )
+<<<<<<< HEAD
 Request URL: /BlogCreator/fonts/glyphicons-regular.ttf
 Stack Trace:
 #0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
@@ -15244,3 +16072,497 @@ Stack Trace:
 #3 Z:\wamp\www\BlogCreator\lib\Cake\Core\App.php(906): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+=======
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:04:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:04:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:04:52 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:04:52 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:05:14 Error: [MissingControllerException] Controller class InscriptionController could not be found.
+Exception Attributes: array (
+  'class' => 'InscriptionController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/inscription
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:05:23 Error: [MissingActionException] Action UsersController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'add',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/add
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-14 22:05:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:05:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:06:08 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:06:08 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:06:15 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:06:15 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:07:06 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:07:06 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:07:39 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-14 22:07:39 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 10:38:29 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+',
+  'enabled' => true,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(3626): ConnectionManager::getDataSource('default')
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(3653): Model->setSource('user')
+#5 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#6 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Pages\home.ctp(4): FormHelper->create('User')
+#9 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\PHP...')
+#10 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\PHP...', Array)
+#11 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\PHP...')
+#12 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(960): View->render('home', NULL)
+#13 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\PagesController.php(68): Controller->render('home')
+#14 [internal function]: PagesController->display('home')
+#15 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#16 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#17 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#18 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2015-12-15 10:40:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 10:40:19 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 10:41:57 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 10:41:57 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 10:50:50 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 10:50:51 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 10:51:14 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 10:51:14 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 10:53:35 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 10:53:35 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 10:55:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 10:55:19 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 11:09:02 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.woff
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 11:09:02 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/fonts/glyphicons-regular.ttf
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 11:11:51 Error: [MissingActionException] Action UsersController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'home',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/home
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-15 12:49:43 Error: [MissingActionException] Action UsersController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'home',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/home
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-15 12:52:02 Error: [MissingActionException] Action PagesController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'home',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-15 12:53:07 Error: Fatal Error (1): Call to undefined function view() in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\PagesController.php, line 77]
+2015-12-15 12:53:07 Error: [FatalErrorException] Call to undefined function view()
+Request URL: /PHP_Avance_II_My_Blog-Creator/
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 77)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 77, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 77, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-15 12:54:32 Error: Fatal Error (1): Call to undefined function redirect() in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\PagesController.php, line 77]
+2015-12-15 12:54:32 Error: [FatalErrorException] Call to undefined function redirect()
+Request URL: /PHP_Avance_II_My_Blog-Creator/
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 77)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 77, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 77, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-15 12:56:43 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/home
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 12:56:57 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/home
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 12:57:17 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/home
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 12:58:00 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/home
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 12:58:20 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/home
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 13:03:58 Error: [MissingActionException] Action UsersController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'home',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/home
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-15 13:16:33 Error: [MissingActionException] Action UsersController::edit.ctp() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'edit.ctp',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/edit.ctp
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-15 13:16:38 Error: [PDOException] SQLSTATE[HY000]: General error: 1030 Got error 28 from storage engine
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Datasource\Database\Mysql.php(340): DboSource->_execute('SHOW FULL COLUM...')
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1390): Mysql->describe(Object(User))
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Datasource\DboSource.php(2530): Model->schema()
+#4 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Datasource\DboSource.php(1066): DboSource->fields(Object(User))
+#5 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(3031): DboSource->read(Object(User), Array)
+#6 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#7 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#8 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\UsersController.php(52): PaginatorComponent->paginate()
+#9 [internal function]: UsersController->index()
+#10 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#11 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#13 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-12-15 13:16:41 Error: [PDOException] SQLSTATE[HY000]: General error: 1030 Got error 28 from storage engine
+Request URL: /PHP_Avance_II_My_Blog-Creator/
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Datasource\Database\Mysql.php(340): DboSource->_execute('SHOW FULL COLUM...')
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1390): Mysql->describe(Object(User))
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#4 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#5 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Pages\home.ctp(4): FormHelper->create('User')
+#6 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\PHP...')
+#7 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\PHP...', Array)
+#8 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\PHP...')
+#9 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(960): View->render('home', NULL)
+#10 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\PagesController.php(68): Controller->render('home')
+#11 [internal function]: PagesController->display('home')
+#12 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#13 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#14 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#15 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-12-15 13:18:03 Error: [NotFoundException] Invalid user
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-15 13:19:28 Error: [PDOException] SQLSTATE[HY000]: General error: 1030 Got error 28 from storage engine
+Request URL: /PHP_Avance_II_My_Blog-Creator/
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Datasource\Database\Mysql.php(340): DboSource->_execute('SHOW FULL COLUM...')
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1390): Mysql->describe(Object(User))
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#4 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#5 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Pages\home.ctp(4): FormHelper->create('User')
+#6 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\PHP...')
+#7 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\PHP...', Array)
+#8 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\PHP...')
+#9 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(960): View->render('home', NULL)
+#10 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\PagesController.php(68): Controller->render('home')
+#11 [internal function]: PagesController->display('home')
+#12 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#13 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#14 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#15 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629

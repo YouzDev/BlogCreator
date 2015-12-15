@@ -36,19 +36,19 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version());
     ?>
 
     <header>
-        <p>Bienvenue sur MyBlog</p>
-        <div id="profil">Mon Profil <?php echo $this->Html->image('profil.png', ['alt' => "gerer"]) ?></div>
+        <p>Bienvenue sur My Creator Blog</p>
+        <div id="profil">Déconnexion <?php echo $this->Html->image('close.png', ['alt' => "gerer"]) ?></div>
     </header>
 </head>
 
 <body>
-
+    
     <div id="selection">
-            <ul>
-                <li><a href="#">Gerer mes blogs <?php echo $this->Html->image('gerer.png', ['alt' => "gerer"]) ?></a></li>
-                <li><a href="#">Articles <?php echo $this->Html->image('article.png', ['alt' => "gerer"]) ?></a></li>
-                <li><a href="#">Commentaire <?php echo $this->Html->image('post.png', ['alt' => "gerer"]) ?></a></li>
-            </ul>
-        </div>
-        
+        <ul>
+            <li><a href="#">Mon Profil <?php echo $this->Html->image('profil.png', ['alt' => "gerer"]) ?></a></li>
+            <li><a href="#">Gerer mes blogs <?php echo $this->Html->image('gerer.png', ['alt' => "gerer"]) ?></a></li>
+            <li><a href="#">Mes amis <?php echo $this->Html->image('friend.png', ['alt' => "gerer"]) ?></a></li>
+        </ul>
+    </div>
+
 </body>
