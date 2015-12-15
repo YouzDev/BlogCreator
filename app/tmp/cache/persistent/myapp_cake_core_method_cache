@@ -1,6 +1,2 @@
-<<<<<<< HEAD
-1450188487
-=======
-1450188963
->>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
-a:2:{i:0;b:0;s:4:"name";a:2:{s:32:"0a27d99cb3596bef530df7b4c15476f0";s:22:"`bog_creator_database`";s:32:"f3649c957e14a7a3004064606aa7b620";s:6:"`user`";}}
+1450189877
+a:2:{i:0;b:0;s:4:"name";a:8:{s:32:"0a27d99cb3596bef530df7b4c15476f0";s:22:"`bog_creator_database`";s:32:"f3649c957e14a7a3004064606aa7b620";s:6:"`user`";s:32:"d951df497c978d33f3ab96c265d61d02";s:7:"`login`";s:32:"1025b45e6ad7a8048372b495709cf7fd";s:5:"`nom`";s:32:"07da0ac9acb8e033c1061bb1c79e08e1";s:8:"`prenom`";s:32:"ae1bde34794270bb273f407db5974619";s:7:"`email`";s:32:"6aa91a7fbb8c9edcf4aa5f9411aec19c";s:10:"`password`";s:32:"7f715a7e7d0f17ccc9bf4582204c7d57";s:5:"`ddn`";}}
