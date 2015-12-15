@@ -82,7 +82,7 @@ class UsersController extends AppController {
 
 		if($this->User->save($tableau, true, array('login', 'nom', 'prenom', 'password', 'email', 'ddn'))) {
 			$this->Session->setFlash("Votre inscription à été faite !", "notif", array('type' => 'success')); 
-			return $this->redirect(array('action' => 'home'));
+		
 		} else {
 			
 		}

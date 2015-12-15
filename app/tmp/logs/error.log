@@ -16255,3 +16255,45 @@ Stack Trace:
 #14 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
 #15 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #16 {main}
+2015-12-15 15:35:34 Error: [MissingControllerException] Controller class NlogController could not be found.
+Exception Attributes: array (
+  'class' => 'NlogController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Nlog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:11:01 Error: [MissingActionException] Action UsersController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'home',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/home
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-15 16:11:45 Error: [MissingActionException] Action UsersController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'home',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/home
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-15 16:12:54 Error: [MissingActionException] Action UsersController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'home',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/home
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
