@@ -1,39 +1,30 @@
-<body>
-    <header>
-               <?php echo $this->Session->flash('auth'); ?>
+<body class="home">
+    <header class="stylefond">
+       <?php echo $this->Session->flash('auth'); ?>
        <?php echo $this->Form->create('User'); ?>
-        <input required="required" id="pseudo_connexion" name="data[User][login]" type="text" maxlength="255" class="form-control" placeholder="Identifiant..." />
-        <input required="required" id="UserPassword" name="data[User][mdp]" type="password" maxlength="255" class="form-control" placeholder="Mot de passe..." />
-        <div class="row btn-connexion">
-            <?php echo $this->Form->button('<span class="glyphicon glyphicons power glyphicon-left"></span>Connexion', array('type' => 'submit','class' => '','escape' => false,'formnovalidate' => true)); ?>
-        </div>
-
-     
-            
+       <h1>Bienvenue Sur My Blog Creator</h1>
 
 
-        <div class="inscription">
+       <div class="connexion">
+        <?php echo $this->Form->create('User'); ?>
+        <?php echo $this->Form->input('login', array('label' => "Login : ")); ?>
+        <?php echo $this->Form->input('password', array('label' => "Mot de passe : ")); ?>
+        <?php echo $this->Form->end("Se connecter"); ?>
         <?php
-                echo $this->Html->link(
-                    'Pas encore de compte, Inscrit-toi ici',
-                    '/Users/inscription/'
-                    );
-        ?>
-    </div>
+        echo $this->Html->link(
+            'Pas encore de compte, Inscrit-toi ici !',
+            '/Users/inscription/'
+            );
+            ?>
+        </div>
     </header>
 
     <nav>
         <div id="menu">
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Blogs</a></li>
-                <li><a href="#">Profils</a></li>
-                <li><a href="#">Chat</a></li>
-                <li><a href="#">plus</a></li>
-            </ul>
+            <p>ICI AFFICHAGE DES BLOGS EXISTANT</p>
+
         </div>
     </nav>
 </body>
 
-   
-        
+
