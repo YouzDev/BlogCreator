@@ -1,5 +1,6 @@
 <?php
 App::uses('AppController', 'Controller');
+App::import('Core', 'Validation');
 /**
  * Users Controller
  *
@@ -8,6 +9,9 @@ App::uses('AppController', 'Controller');
  * @property FlashComponent $Flash
  * @property SessionComponent $Session
  */
+
+# use Cake\Validation\Validation;
+
 class UsersController extends AppController {
 
 /**
@@ -75,6 +79,23 @@ class UsersController extends AppController {
  * @return void
  */
 	public function inscription() {
+
+
+/*$validator = new Validator();
+$validator
+    ->requirePresence('email')
+    ->add('email', 'validFormat', [
+        'rule' => 'email',
+        'message' => 'E-mail doit être valide'
+    ])
+    ->requirePresence('name')
+    ->allowEmpty('name', false, 'On a besoin de ton nom.');
+
+
+$errors = $validator->errors($this->request->data());
+if (!empty($errors)) {
+    echo "ekeke";
+}  */
 	if($this->request->is('post')) {
 		$tableau = $this->request->data;
 		$tableau['User']['id'] = null;
@@ -83,6 +104,7 @@ class UsersController extends AppController {
 		}
 
 		if($this->User->save($tableau, true, array('login', 'nom', 'prenom', 'password', 'email', 'ddn'))) {
+			
 			$this->Session->setFlash("Votre inscription à été faite !", "notif", array('type' => 'success')); 
 		} else {
 			
