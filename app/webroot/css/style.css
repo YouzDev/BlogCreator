@@ -68,10 +68,6 @@ ul li a:hover {
 	text-align: center;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
 .success {
 	clear: both;
 	color: #fff;
@@ -89,6 +85,17 @@ ul li a:hover {
 }
 
 #contenu {
+	background: #2b343d;
+	clear: both;
+	color: black;
+	padding: 10px 20px 40px 20px;
+	overflow: auto;
+	width: 20%;
+	margin: auto;
+	padding: 5%;
+}
+
+#content {
 	background: #2b343d;
 	clear: both;
 	color: black;
@@ -155,7 +162,6 @@ img {
 label {
 
 	text-transform: uppercase;
-	border: solid 1px;
 }
 
 .stylefond {
@@ -175,4 +181,24 @@ label {
 	margin: auto;
 	margin-top: 5%;
 }
+<<<<<<< HEAD
 >>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
+=======
+
+input {
+
+	color: black;
+}
+>>>>>>> 1f621fb7bd2a53dcbe56dda5055b5075e9dbe0b9
+
+.error {
+  border: 1px solid red;
+}
+.form-error {
+  border: 1px solid red;
+  background: #fcf5f6;
+}
+.error-message {
+  color: red;
+  font-weight: bold;
+}

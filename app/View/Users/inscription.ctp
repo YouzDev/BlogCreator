@@ -14,7 +14,7 @@
 			<?php echo $this->Form->input('prenom', array('label' => "Prenom : ")); ?>
 			<?php echo $this->Form->input('email', array('label' => "Email : ")); ?>
 			<?php echo $this->Form->input('password', array('label' => "Mot de passe : ")); ?>
-			<?php echo $this->Form->input('ddn', array('label' => "Date de naissance : ")); ?>
+			<?php echo $this->Form->date('ddn', array('label' => "Date de naissance : ")); ?>
 
 			<?php echo $this->Form->end("S'inscrire"); ?>
 	
