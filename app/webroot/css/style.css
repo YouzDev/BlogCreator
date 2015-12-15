@@ -95,6 +95,17 @@ ul li a:hover {
 	padding: 5%;
 }
 
+#content {
+	background: #2b343d;
+	clear: both;
+	color: black;
+	padding: 10px 20px 40px 20px;
+	overflow: auto;
+	width: 20%;
+	margin: auto;
+	padding: 5%;
+}
+
 body.couleurfond {
 
 	background-color: #778899;
@@ -118,11 +129,14 @@ body.couleurfond {
 	color: white;
 }
 
+<<<<<<< HEAD
+=======
 .log legend {
 
 	color: white;
 }
 
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
 #selection ul li{
 
 	margin-left: 21%;
@@ -143,6 +157,8 @@ img {
 	width: 15%;
 }
 
+<<<<<<< HEAD
+=======
 label {
 
 	text-transform: uppercase;
@@ -165,8 +181,24 @@ label {
 	margin: auto;
 	margin-top: 5%;
 }
+<<<<<<< HEAD
+>>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
+=======
 
 input {
 
 	color: black;
+}
+>>>>>>> 1f621fb7bd2a53dcbe56dda5055b5075e9dbe0b9
+
+.error {
+  border: 1px solid red;
+}
+.form-error {
+  border: 1px solid red;
+  background: #fcf5f6;
+}
+.error-message {
+  color: red;
+  font-weight: bold;
 }
