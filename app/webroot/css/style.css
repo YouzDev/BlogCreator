@@ -97,7 +97,7 @@ ul li a:hover {
 	padding: 5%;
 }
 
-#content {
+/*#content {
 	background: #2b343d;
 	clear: both;
 	color: black;
@@ -137,11 +137,14 @@ body.couleurfond {
 }
 
 
+/*#selection ul li{
+=======
 #selection ul li{
+>>>>>>> 61aaf3dc616c45c0c3b621e4d7ad8b89a76d5118
 
 	margin-left: 21%;
 	margin-top: 7%;
-}
+}*/
 img {
 
 	width: 80%;
@@ -157,7 +160,10 @@ img {
 	width: 15%;
 }
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 61aaf3dc616c45c0c3b621e4d7ad8b89a76d5118
 label {
 
 	text-transform: uppercase;

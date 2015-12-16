@@ -80,6 +80,7 @@ class BlogController extends AppController {
 				'contenu_test' => 'Tableau de bord'
 			)
 		);
+/*		$user = $this->Session->read(['User']['nom']);*/
         $this->layout = 'dashboard';
 	}
 	

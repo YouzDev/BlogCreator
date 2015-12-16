@@ -81,6 +81,7 @@ class UsersController extends AppController {
 			
 			return $this->redirect('/');
 			$this->Session->setFlash("Votre inscription à été faite !", "notif", array('type' => 'success')); 
+
 		} else {
 			
 		}

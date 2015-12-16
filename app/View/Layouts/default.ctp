@@ -25,26 +25,26 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		<?php echo 'Blog Creatorz'; ?>
 	</title>
 	<?php
-		echo $this->Html->meta('icon');
-		echo $this->Html->css('bootstrap');
-		echo $this->Html->css('style');
+	echo $this->Html->meta('icon');
+	echo $this->Html->css('bootstrap');
+	echo $this->Html->css('style');
 	?>
 
-		<?php
-		echo $this->fetch('meta');
-		echo $this->fetch('css');
-		echo $this->fetch('script');
+	<?php
+	echo $this->fetch('meta');
+	echo $this->fetch('css');
+	echo $this->fetch('script');
 	?> 
 </head>
 <body>
 	<div id="container">
 
 		<div id="content">
-
 			<?php echo $this->Flash->render(); ?>
-
 			<?php echo $this->fetch('content'); ?>
 		</div>
+		<div id="footer"></div>
+
 		<div id="footer">
 			
 			<p><?php echo $this->Html->link('Déjà un compte ?',
@@ -54,6 +54,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 			
 			</p>
 		</div>
+
 	</div>
 </body>
 </html>
