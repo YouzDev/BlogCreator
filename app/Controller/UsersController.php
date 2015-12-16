@@ -1,6 +1,6 @@
 <?php
 App::uses('AppController', 'Controller');
-App::import('Core', 'Validation');
+
 /**
  * Users Controller
  *
@@ -24,26 +24,18 @@ class UsersController extends AppController {
 
 	public function login() {
 
-	if ($this->request->is('post')) {
-   
-           if ($this->Auth->login()) {
-        
-        	return $this->redirect($this->Auth->redirect());
-               
-               
-           } else{
-                   
-               
-               $this->Session->setFlash(__('<button type="button" class="close" data-dismiss="alert"><span class="glyphicon glyphicons remove_2"></span></button><span class="contenu"><span class="glyphicon glyphicons ban"></span>Identifiant ou mot de passe incorrect</span>'),
-                    'default',
-                    array('class' => 'alert alert-dismissable alert-danger col-xs-8 col-xs-offset-2 col-sm-8 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3'),
-                    'auth'
-                );
-           }
+		if($this->request->is('post')) {
+			if($this->Auth->login()) {
+				$this->Session->setFlash("Vous êtes connecté", "notif"); 
+				$this->redirect('/Blog');
+		}
+		 else {
+			$this->Session->setFlash("Votre login ou votre mot de passe est mauvais"); 
+						
+		}
+	}
 
-           
-           
-           } }
+	 }
 
 
 /**
@@ -78,22 +70,6 @@ class UsersController extends AppController {
  */
 	public function inscription() {
 
-
-/*$validator = new Validator();
-$validator
-    ->requirePresence('email')
-    ->add('email', 'validFormat', [
-        'rule' => 'email',
-        'message' => 'E-mail doit être valide'
-    ])
-    ->requirePresence('name')
-    ->allowEmpty('name', false, 'On a besoin de ton nom.');
-
-
-$errors = $validator->errors($this->request->data());
-if (!empty($errors)) {
-    echo "ekeke";
-}  */
 	if($this->request->is('post')) {
 		$tableau = $this->request->data;
 		$tableau['User']['id'] = null;
@@ -103,6 +79,7 @@ if (!empty($errors)) {
 
 		if($this->User->save($tableau, true, array('login', 'nom', 'prenom', 'password', 'email', 'ddn'))) {
 			
+			return $this->redirect('/');
 			$this->Session->setFlash("Votre inscription à été faite !", "notif", array('type' => 'success')); 
 
 		} else {

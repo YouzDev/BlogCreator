@@ -82,9 +82,11 @@ ul li a:hover {
 	background-image: linear-gradient(top, #76BF6B, #3B8230);
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 	text-align: center;
+	width: 20%;
+	margin: auto;
 }
 
-#contenu {
+/*#contenu {
 	background: #2b343d;
 	clear: both;
 	color: black;
@@ -136,6 +138,9 @@ body.couleurfond {
 
 
 /*#selection ul li{
+=======
+#selection ul li{
+>>>>>>> 61aaf3dc616c45c0c3b621e4d7ad8b89a76d5118
 
 	margin-left: 21%;
 	margin-top: 7%;
@@ -155,6 +160,10 @@ img {
 	width: 15%;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 61aaf3dc616c45c0c3b621e4d7ad8b89a76d5118
 label {
 
 	text-transform: uppercase;
@@ -179,7 +188,6 @@ label {
 }
 
 input {
-
 	color: black;
 }
 
@@ -193,4 +201,8 @@ input {
 .error-message {
   color: red;
   font-weight: bold;
+}
+
+p {
+	color:black;
 }

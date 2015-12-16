@@ -22,7 +22,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		<?php echo 'Blog Creator'; ?>
+		<?php echo 'Blog Creatorz'; ?>
 	</title>
 	<?php
 	echo $this->Html->meta('icon');
@@ -38,13 +38,23 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 </head>
 <body>
 	<div id="container">
-		<div id="header">
-		</div>
+
 		<div id="content">
 			<?php echo $this->Flash->render(); ?>
 			<?php echo $this->fetch('content'); ?>
 		</div>
 		<div id="footer"></div>
+
+		<div id="footer">
+			
+			<p><?php echo $this->Html->link('Déjà un compte ?',
+            '/Users/login'
+            ); ?></p>
+			<p>
+			
+			</p>
+		</div>
+>>>>>>> 61aaf3dc616c45c0c3b621e4d7ad8b89a76d5118
 	</div>
 </body>
 </html>

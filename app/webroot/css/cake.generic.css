@@ -411,8 +411,6 @@ form .error-message {
 
 .success,
 .message,
-.cake-error,
-.cake-debug,
 .notice,
 p.error,
 .error-message {
@@ -439,7 +437,6 @@ p.error,
 }
 .success,
 .message,
-.cake-error,
 p.error,
 .error-message {
 	clear: both;
