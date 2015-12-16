@@ -206,3 +206,13 @@ input {
 p {
 	color:black;
 }
+
+#tabs-2 button{
+
+	padding: 3%;
+	width: 180%;
+	margin-left: 230%;
+	margin-top: 5%;
+	background-color: #2b343d;
+	color: #fcf5f6;
+}

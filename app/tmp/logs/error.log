@@ -17757,3 +17757,636 @@ Stack Trace:
 #3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-12-16 13:32:13 Error: Fatal Error (1): Call to a member function read() on a non-object in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\BlogController.php, line 83]
+2015-12-16 13:32:13 Error: [FatalErrorException] Call to a member function read() on a non-object
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\PHP...', 83)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\PHP...', 83, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\PHP...', 83, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 13:38:12 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\BlogController.php, line 84]
+2015-12-16 13:38:12 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\PHP...', 84)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\PHP...', 84, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\PHP...', 84, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 15:05:52 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Layouts\dashboard.ctp, line 98]
+2015-12-16 15:05:52 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 98)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 98, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 98, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 15:06:11 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Layouts\dashboard.ctp, line 98]
+2015-12-16 15:06:11 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 98)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 98, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 98, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 15:06:29 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Layouts\dashboard.ctp, line 98]
+2015-12-16 15:06:29 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 98)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 98, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 98, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 15:07:41 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Layouts\dashboard.ctp, line 95]
+2015-12-16 15:07:41 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 95)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 95, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 95, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 15:07:56 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Layouts\dashboard.ctp, line 97]
+2015-12-16 15:07:56 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 97)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 97, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 97, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 15:08:12 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Layouts\dashboard.ctp, line 97]
+2015-12-16 15:08:12 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 97)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 97, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 97, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 15:08:58 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Layouts\dashboard.ctp, line 97]
+2015-12-16 15:08:58 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 97)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 97, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 97, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 15:09:00 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Layouts\dashboard.ctp, line 97]
+2015-12-16 15:09:00 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 97)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 97, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 97, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 15:30:06 Error: [MissingViewException] View file "Blog\dashboard.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Blog\\dashboard.ctp',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#4 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-16 16:57:14 Error: [MissingTableException] Table blogs for model Blog was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'blogs',
+  'class' => 'Blog',
+  'ds' => 'default',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(3653): Model->setSource('blogs')
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1575): Model->schema()
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\BlogController.php(107): Model->create()
+#4 [internal function]: BlogController->ajouter()
+#5 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BlogController), Array)
+#6 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#8 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-12-16 16:58:50 Error: [MissingTableException] Table blogs for model Blog was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'blogs',
+  'class' => 'Blog',
+  'ds' => 'default',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(3653): Model->setSource('blogs')
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1575): Model->schema()
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\BlogController.php(107): Model->create()
+#4 [internal function]: BlogController->ajouter()
+#5 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BlogController), Array)
+#6 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#8 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-12-16 17:00:43 Error: [MissingTableException] Table blogs for model Blog was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'blogs',
+  'class' => 'Blog',
+  'ds' => 'default',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(3653): Model->setSource('blogs')
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1575): Model->schema()
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\BlogController.php(107): Model->create()
+#4 [internal function]: BlogController->ajouter()
+#5 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BlogController), Array)
+#6 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#8 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-12-16 17:01:29 Error: [MissingTableException] Table blogs for model Blog was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'blogs',
+  'class' => 'Blog',
+  'ds' => 'default',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(3653): Model->setSource('blogs')
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1575): Model->schema()
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\BlogController.php(107): Model->create()
+#4 [internal function]: BlogController->ajouter()
+#5 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BlogController), Array)
+#6 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#8 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-12-16 17:01:38 Error: [MissingTableException] Table blogs for model Blog was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'blogs',
+  'class' => 'Blog',
+  'ds' => 'default',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(3653): Model->setSource('blogs')
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1575): Model->schema()
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\BlogController.php(107): Model->create()
+#4 [internal function]: BlogController->ajouter()
+#5 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BlogController), Array)
+#6 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#8 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-12-16 17:02:02 Error: [MissingTableException] Table blogs for model Blog was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'blogs',
+  'class' => 'Blog',
+  'ds' => 'default',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(3653): Model->setSource('blogs')
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1575): Model->schema()
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\BlogController.php(107): Model->create()
+#4 [internal function]: BlogController->ajouter()
+#5 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BlogController), Array)
+#6 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#8 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-12-16 17:02:06 Error: [MissingTableException] Table blogs for model Blog was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'blogs',
+  'class' => 'Blog',
+  'ds' => 'default',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(3653): Model->setSource('blogs')
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1575): Model->schema()
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\BlogController.php(107): Model->create()
+#4 [internal function]: BlogController->ajouter()
+#5 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BlogController), Array)
+#6 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#8 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-12-16 17:02:25 Error: [MissingTableException] Table blogs for model Blog was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'blogs',
+  'class' => 'Blog',
+  'ds' => 'default',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(3653): Model->setSource('blogs')
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1575): Model->schema()
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\BlogController.php(107): Model->create()
+#4 [internal function]: BlogController->ajouter()
+#5 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BlogController), Array)
+#6 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#8 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-12-16 17:05:14 Error: [MissingTableException] Table blogs for model Blog was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'blogs',
+  'class' => 'Blog',
+  'ds' => 'default',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(3653): Model->setSource('blogs')
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1575): Model->schema()
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\BlogController.php(107): Model->create()
+#4 [internal function]: BlogController->ajouter()
+#5 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BlogController), Array)
+#6 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#8 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-12-16 17:07:16 Error: [MissingTableException] Table blogs for model Blog was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'blogs',
+  'class' => 'Blog',
+  'ds' => 'default',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(3653): Model->setSource('blogs')
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1575): Model->schema()
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\BlogController.php(107): Model->create()
+#4 [internal function]: BlogController->ajouter()
+#5 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BlogController), Array)
+#6 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#8 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-12-16 17:10:54 Error: [MissingActionException] Action BlogController::Blog() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'Blog',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:11:46 Error: [MissingActionException] Action BlogController::Blog() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'Blog',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:11:52 Error: [MissingActionException] Action BlogController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'css',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/css/tabulous.css
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:11:52 Error: [MissingActionException] Action BlogController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'js',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:11:52 Error: [MissingActionException] Action BlogController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'js',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:12:00 Error: [MissingActionException] Action BlogController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'css',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/css/tabulous.css
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:12:00 Error: [MissingActionException] Action BlogController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'js',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:12:00 Error: [MissingActionException] Action BlogController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'js',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:12:06 Error: [MissingActionException] Action BlogController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'js',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:12:06 Error: [MissingActionException] Action BlogController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'css',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/css/tabulous.css
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:12:06 Error: [MissingActionException] Action BlogController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'js',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:12:08 Error: [MissingActionException] Action BlogController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'css',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/css/tabulous.css
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:12:08 Error: [MissingActionException] Action BlogController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'js',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:12:08 Error: [MissingActionException] Action BlogController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'js',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:12:17 Error: [MissingActionException] Action BlogController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'css',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/css/tabulous.css
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:12:17 Error: [MissingActionException] Action BlogController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'js',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:12:17 Error: [MissingActionException] Action BlogController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'js',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:12:48 Error: [MissingActionException] Action BlogController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'css',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/css/tabulous.css
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:12:48 Error: [MissingActionException] Action BlogController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'js',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:12:48 Error: [MissingActionException] Action BlogController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'js',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:19:23 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Blog\ajouter.ctp, line 18]
+2015-12-16 17:19:23 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 18, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 18, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 17:21:50 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Blog\ajouter.ctp, line 18]
+2015-12-16 17:21:50 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 18, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 18, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 17:22:02 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Blog\ajouter.ctp, line 18]
+2015-12-16 17:22:02 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 18, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 18, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 17:22:25 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Blog\ajouter.ctp, line 20]
+2015-12-16 17:22:25 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 20, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 20, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 17:28:32 Error: [MissingActionException] Action BlogController::edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'BlogController',
+  'action' => 'edit',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/edit
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 17:30:57 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Blog\ajouter.ctp, line 20]
+2015-12-16 17:30:57 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 20, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 20, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 17:31:57 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Blog\ajouter.ctp, line 20]
+2015-12-16 17:31:57 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 20, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 20, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 17:32:16 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Blog\ajouter.ctp, line 20]
+2015-12-16 17:32:16 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 20, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 20, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 17:32:37 Error: Fatal Error (1): Call to undefined method AuthComponent::blogs() in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Blog\ajouter.ctp, line 13]
+2015-12-16 17:32:37 Error: [FatalErrorException] Call to undefined method AuthComponent::blogs()
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 13, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 13, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 17:32:57 Error: Fatal Error (1): Call to undefined method AuthComponent::blogs() in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Blog\ajouter.ctp, line 13]
+2015-12-16 17:32:57 Error: [FatalErrorException] Call to undefined method AuthComponent::blogs()
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 13, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 13, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 17:33:00 Error: Fatal Error (1): Call to undefined method AuthComponent::blogs() in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Blog\ajouter.ctp, line 13]
+2015-12-16 17:33:00 Error: [FatalErrorException] Call to undefined method AuthComponent::blogs()
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 13, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 13, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 17:35:46 Error: Fatal Error (1): Call to undefined method AuthComponent::blogs() in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Blog\ajouter.ctp, line 13]
+2015-12-16 17:35:46 Error: [FatalErrorException] Call to undefined method AuthComponent::blogs()
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog/ajouter
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 13, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 13, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
