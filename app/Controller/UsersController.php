@@ -104,11 +104,7 @@ if (!empty($errors)) {
 		if($this->User->save($tableau, true, array('login', 'nom', 'prenom', 'password', 'email', 'ddn'))) {
 			
 			$this->Session->setFlash("Votre inscription à été faite !", "notif", array('type' => 'success')); 
-<<<<<<< HEAD
-		
-=======
-			#return $this->redirect(array('action' => 'home'));
->>>>>>> 08362920e6b4f86a8f57896603b98b614a1c7777
+
 		} else {
 			
 		}

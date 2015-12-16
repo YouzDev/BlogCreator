@@ -25,15 +25,15 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		<?php echo 'Blog Creator'; ?>
 	</title>
 	<?php
-		echo $this->Html->meta('icon');
-		echo $this->Html->css('bootstrap');
-		echo $this->Html->css('style');
+	echo $this->Html->meta('icon');
+	echo $this->Html->css('bootstrap');
+	echo $this->Html->css('style');
 	?>
 
-		<?php
-		echo $this->fetch('meta');
-		echo $this->fetch('css');
-		echo $this->fetch('script');
+	<?php
+	echo $this->fetch('meta');
+	echo $this->fetch('css');
+	echo $this->fetch('script');
 	?> 
 </head>
 <body>
@@ -41,17 +41,10 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		<div id="header">
 		</div>
 		<div id="content">
-
 			<?php echo $this->Flash->render(); ?>
-
 			<?php echo $this->fetch('content'); ?>
 		</div>
-		<div id="footer">
-			
-			<p>
-			
-			</p>
-		</div>
+		<div id="footer"></div>
 	</div>
 </body>
 </html>

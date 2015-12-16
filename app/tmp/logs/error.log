@@ -16640,3 +16640,1002 @@ Stack Trace:
 #2 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 >>>>>>> 08362920e6b4f86a8f57896603b98b614a1c7777
 #3 {main}
+2015-12-15 16:20:18 Error: Fatal Error (4): syntax error, unexpected '<<' (T_SL) in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\UsersController.php, line 107]
+2015-12-15 16:20:18 Error: [FatalErrorException] syntax error, unexpected '<<' (T_SL)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/inscription/
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 107)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 107, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 107, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-15 16:23:28 Error: [MissingControllerException] Controller class BController could not be found.
+Exception Attributes: array (
+  'class' => 'BController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/B
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:53:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:53:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:53:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:53:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:54:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:54:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:54:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 16:54:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:00:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:00:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:00:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:00:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:04:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:04:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:04:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:05:40 Error: [MissingControllerException] Controller class Tabulous.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Tabulous.cssController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/tabulous.css
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:05:40 Error: [MissingControllerException] Controller class Js.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Js.jsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:05:40 Error: [MissingControllerException] Controller class Tabulous.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Tabulous.jsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:05:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:05:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:05:41 Error: [MissingControllerException] Controller class Tabulous.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Tabulous.cssController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/tabulous.css
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:05:41 Error: [MissingControllerException] Controller class Tabulous.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Tabulous.jsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:05:42 Error: [MissingControllerException] Controller class Js.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'Js.jsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:05:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:05:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:05:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:05:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:05:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:05:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:08:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:08:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:08:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:08:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:08:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:08:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:09:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:09:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:09:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:09:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:09:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:09:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:09:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:09:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:11:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:11:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:11:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:11:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:12:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:12:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:12:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:12:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:12:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:12:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:12:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:12:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:12:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:12:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:12:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:12:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:12:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/tabulous.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-15 17:12:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/js/js.js
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-16 10:26:10 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+',
+  'enabled' => true,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(3626): ConnectionManager::getDataSource('default')
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(3653): Model->setSource('user')
+#5 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#6 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Pages\home.ctp(4): FormHelper->create('User')
+#9 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\PHP...')
+#10 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\PHP...', Array)
+#11 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(473): View->_render('C:\\wamp\\www\\PHP...')
+#12 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(960): View->render('home', NULL)
+#13 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\PagesController.php(68): Controller->render('home')
+#14 [internal function]: PagesController->display('home')
+#15 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#16 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#17 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#18 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2015-12-16 10:34:22 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Layouts\dashboard.ctp, line 71]
+2015-12-16 10:34:22 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 71)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 71, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 71, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 11:53:00 Error: Fatal Error (1): Call to a member function set() on a non-object in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Layouts\dashboard.ctp, line 51]
+2015-12-16 11:53:00 Error: [FatalErrorException] Call to a member function set() on a non-object
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\PHP...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\PHP...', 51, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\PHP...', 51, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 11:53:21 Error: Fatal Error (1): Call to undefined function set() in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Layouts\dashboard.ctp, line 51]
+2015-12-16 11:53:21 Error: [FatalErrorException] Call to undefined function set()
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 51, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 51, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 11:53:25 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Layouts\dashboard.ctp, line 51]
+2015-12-16 11:53:25 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 51, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 51, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 11:53:33 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Layouts\dashboard.ctp, line 51]
+2015-12-16 11:53:33 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 51, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 51, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 11:54:48 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('User')
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(858): HelperCollection->__isset('User')
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Layouts\dashboard.ctp(60): View->__get('User')
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\PHP...')
+#4 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\PHP...', Array)
+#5 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(546): View->_render('C:\\wamp\\www\\PHP...')
+#6 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(481): View->renderLayout('', 'dashboard')
+#7 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#8 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#10 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-12-16 11:55:02 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('User')
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(858): HelperCollection->__isset('User')
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Layouts\dashboard.ctp(58): View->__get('User')
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\PHP...')
+#4 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\PHP...', Array)
+#5 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(546): View->_render('C:\\wamp\\www\\PHP...')
+#6 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(481): View->renderLayout('', 'dashboard')
+#7 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#8 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#10 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-12-16 11:55:29 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('User')
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(858): HelperCollection->__isset('User')
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Layouts\dashboard.ctp(104): View->__get('User')
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\PHP...')
+#4 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\PHP...', Array)
+#5 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(546): View->_render('C:\\wamp\\www\\PHP...')
+#6 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(481): View->renderLayout('', 'dashboard')
+#7 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#8 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#10 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-12-16 11:56:08 Error: [MissingHelperException] Helper class userHelper could not be found.
+Exception Attributes: array (
+  'class' => 'userHelper',
+  'plugin' => false,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('user')
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(858): HelperCollection->__isset('user')
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Layouts\dashboard.ctp(104): View->__get('user')
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(971): include('C:\\wamp\\www\\PHP...')
+#4 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(933): View->_evaluate('C:\\wamp\\www\\PHP...', Array)
+#5 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(546): View->_render('C:\\wamp\\www\\PHP...')
+#6 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(481): View->renderLayout('', 'dashboard')
+#7 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#8 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BlogController), Object(CakeRequest))
+#10 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-12-16 11:56:23 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Layouts\dashboard.ctp, line 104]
+2015-12-16 11:56:23 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 104)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 104, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 104, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 11:56:29 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Layouts\dashboard.ctp, line 104]
+2015-12-16 11:56:29 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 104)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 104, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 104, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 12:02:35 Error: [MissingActionException] Action UsersController::dashboard() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'dashboard',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 12:03:36 Error: [MissingViewException] View file "Users\dashboard.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\dashboard.ctp',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-16 12:30:20 Error: [MissingViewException] View file "Users\dashboard.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\dashboard.ctp',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-16 12:33:33 Error: [MissingViewException] View file "Users\dashboard.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\dashboard.ctp',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-16 12:33:39 Error: [MissingViewException] View file "Users\dashboard.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\dashboard.ctp',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-16 12:33:40 Error: [MissingViewException] View file "Users\dashboard.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\dashboard.ctp',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-16 12:33:54 Error: [MissingControllerException] Controller class NlogController could not be found.
+Exception Attributes: array (
+  'class' => 'NlogController',
+  'plugin' => NULL,
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Nlog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-16 12:33:59 Error: [MissingViewException] View file "Users\dashboard.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\dashboard.ctp',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-16 12:34:07 Error: [MissingActionException] Action UsersController::dashboard() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'dashboard',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 12:42:48 Error: Fatal Error (1): Call to undefined function getUser() in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\Controller\BlogController.php, line 85]
+2015-12-16 12:42:48 Error: [FatalErrorException] Call to undefined function getUser()
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 85, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\PHP...', 85, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 12:50:34 Error: [MissingActionException] Action UsersController::Blog() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'Blog',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 12:51:40 Error: [MissingViewException] View file "Users\blog.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\blog.ctp',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-16 12:52:11 Error: [MissingActionException] Action UsersController::Blog() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'Blog',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 12:52:20 Error: [MissingActionException] Action UsersController::Blog() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'Blog',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 12:52:48 Error: [MissingActionException] Action UsersController::Blog() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'Blog',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 12:53:05 Error: [MissingActionException] Action UsersController::Blog() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'Blog',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 12:53:06 Error: [MissingActionException] Action UsersController::Blog() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'Blog',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 12:53:14 Error: [MissingActionException] Action UsersController::Blog() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'Blog',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 12:53:15 Error: [MissingActionException] Action UsersController::Blog() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'Blog',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 12:53:15 Error: [MissingActionException] Action UsersController::Blog() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'Blog',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 12:53:15 Error: [MissingActionException] Action UsersController::Blog() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'Blog',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 12:53:15 Error: [MissingActionException] Action UsersController::Blog() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'Blog',
+)
+Request URL: /PHP_Avance_II_My_Blog-Creator/Users/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 12:53:42 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\wamp\www\PHP_Avance_II_My_Blog-Creator\app\View\Layouts\dashboard.ctp, line 58]
+2015-12-16 12:53:42 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /PHP_Avance_II_My_Blog-Creator/Blog
+Stack Trace:
+#0 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 58, Array)
+#2 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\PHP...', 58, Array)
+#3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

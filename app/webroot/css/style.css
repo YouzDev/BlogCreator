@@ -95,7 +95,7 @@ ul li a:hover {
 	padding: 5%;
 }
 
-#content {
+/*#content {
 	background: #2b343d;
 	clear: both;
 	color: black;
@@ -104,7 +104,7 @@ ul li a:hover {
 	width: 20%;
 	margin: auto;
 	padding: 5%;
-}
+}*/
 
 body.couleurfond {
 
@@ -129,19 +129,17 @@ body.couleurfond {
 	color: white;
 }
 
-<<<<<<< HEAD
-=======
 .log legend {
 
 	color: white;
 }
 
->>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
-#selection ul li{
+
+/*#selection ul li{
 
 	margin-left: 21%;
 	margin-top: 7%;
-}
+}*/
 img {
 
 	width: 80%;
@@ -157,8 +155,6 @@ img {
 	width: 15%;
 }
 
-<<<<<<< HEAD
-=======
 label {
 
 	text-transform: uppercase;
@@ -181,15 +177,11 @@ label {
 	margin: auto;
 	margin-top: 5%;
 }
-<<<<<<< HEAD
->>>>>>> 346ba022f64d6fe980c65951b0a686c52b638629
-=======
 
 input {
 
 	color: black;
 }
->>>>>>> 1f621fb7bd2a53dcbe56dda5055b5075e9dbe0b9
 
 .error {
   border: 1px solid red;
