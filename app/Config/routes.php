@@ -28,7 +28,7 @@
 	Router::connect('/', array('controller' => 'Pages', 'action' => 'display', 'home'));
 
 	Router::connect('/Blog', array('controller' => 'Blog', 'action' => 'dashboard'));
-
+	Router::connect('/connexion', array('controller' => 'Users', 'action' => 'login'));
 
 
 	CakePlugin::routes();
