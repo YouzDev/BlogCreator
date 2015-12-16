@@ -17757,3 +17757,98 @@ Stack Trace:
 #3 C:\wamp\www\PHP_Avance_II_My_Blog-Creator\lib\Cake\Core\App.php(906): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-12-16 15:20:29 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [Z:\wamp\www\BlogCreator\app\Controller\UsersController.php, line 35]
+2015-12-16 15:20:29 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /BlogCreator/Users/login
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'Z:\\wamp\\www\\Blo...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'Z:\\wamp\\www\\Blo...', 35, Array)
+#2 Z:\wamp\www\BlogCreator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'Z:\\wamp\\www\\Blo...', 35, Array)
+#3 Z:\wamp\www\BlogCreator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 15:37:20 Error: Fatal Error (4): syntax error, unexpected ';' in [Z:\wamp\www\BlogCreator\app\View\Layouts\dashboard.ctp, line 65]
+2015-12-16 15:37:20 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /BlogCreator/Blog
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'Z:\\wamp\\www\\Blo...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'Z:\\wamp\\www\\Blo...', 65, Array)
+#2 Z:\wamp\www\BlogCreator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'Z:\\wamp\\www\\Blo...', 65, Array)
+#3 Z:\wamp\www\BlogCreator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 15:48:06 Error: [MissingControllerException] Controller class GggController could not be found.
+Exception Attributes: array (
+  'class' => 'GggController',
+  'plugin' => NULL,
+)
+Request URL: /BlogCreator/ggg
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-16 15:48:35 Error: [MissingControllerException] Controller class GggController could not be found.
+Exception Attributes: array (
+  'class' => 'GggController',
+  'plugin' => NULL,
+)
+Request URL: /BlogCreator/ggg
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-16 15:49:23 Error: [MissingControllerException] Controller class GggController could not be found.
+Exception Attributes: array (
+  'class' => 'GggController',
+  'plugin' => NULL,
+)
+Request URL: /BlogCreator/ggg
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-16 15:49:24 Error: [MissingControllerException] Controller class GggController could not be found.
+Exception Attributes: array (
+  'class' => 'GggController',
+  'plugin' => NULL,
+)
+Request URL: /BlogCreator/ggg
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-16 15:49:38 Error: [MissingControllerException] Controller class GggController could not be found.
+Exception Attributes: array (
+  'class' => 'GggController',
+  'plugin' => NULL,
+)
+Request URL: /BlogCreator/ggg
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-16 16:27:16 Error: Fatal Error (4): syntax error, unexpected '}' in [Z:\wamp\www\BlogCreator\app\View\Layouts\dashboard.ctp, line 45]
+2015-12-16 16:27:16 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /BlogCreator/Blog
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'Z:\\wamp\\www\\Blo...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'Z:\\wamp\\www\\Blo...', 45, Array)
+#2 Z:\wamp\www\BlogCreator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'Z:\\wamp\\www\\Blo...', 45, Array)
+#3 Z:\wamp\www\BlogCreator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 16:40:36 Error: Fatal Error (64): Cannot redeclare AppController::$components in [Z:\wamp\www\BlogCreator\app\Controller\AppController.php, line 49]
+2015-12-16 16:40:36 Error: [FatalErrorException] Cannot redeclare AppController::$components
+Request URL: /BlogCreator/Users/login
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'Z:\\wamp\\www\\Blo...', 49)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'Z:\\wamp\\www\\Blo...', 49, Array)
+#2 Z:\wamp\www\BlogCreator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'Z:\\wamp\\www\\Blo...', 49, Array)
+#3 Z:\wamp\www\BlogCreator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-16 16:43:58 Error: Fatal Error (4): syntax error, unexpected '*', expecting function (T_FUNCTION) in [Z:\wamp\www\BlogCreator\app\Controller\AppController.php, line 49]
+2015-12-16 16:43:58 Error: [FatalErrorException] syntax error, unexpected '*', expecting function (T_FUNCTION)
+Request URL: /BlogCreator/Users/login
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'Z:\\wamp\\www\\Blo...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'Z:\\wamp\\www\\Blo...', 49, Array)
+#2 Z:\wamp\www\BlogCreator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'Z:\\wamp\\www\\Blo...', 49, Array)
+#3 Z:\wamp\www\BlogCreator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

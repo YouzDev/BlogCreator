@@ -47,9 +47,6 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 
 		<div id="footer">
 			
-			<p><?php echo $this->Html->link('Déjà un compte ?',
-            '/Users/login'
-            ); ?></p>
 			<p>
 			
 			</p>

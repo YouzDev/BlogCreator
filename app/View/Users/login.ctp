@@ -9,9 +9,9 @@
 			<?php echo $this->Form->input('login', array('label' => "Login : ")); ?>
 			<?php echo $this->Form->input('password', array('label' => "Mot de passe : ")); ?>
 
-			<?php echo $this->Form->end("Connexion"); ?>
-
 			<p></p><br/>
-			<p><?php echo $this->Html->link("S'inscrire", "/Users/login") ?></p>
+			<?php echo $this->Form->end("Connexion"); ?>
+			<p></p><br/>
+			<p><?php echo $this->Html->link("S'inscrire", "/Users/inscription") ?></p>
 		</div>
 	</body>

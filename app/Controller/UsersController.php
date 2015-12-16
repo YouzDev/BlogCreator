@@ -19,24 +19,29 @@ class UsersController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator', 'Flash', 'Session');
-
+	#public $components = array('Paginator', 'Flash', 'Session');	
+	public $components = array('Session', 'Cookie', 'Auth');
 
 	public function login() {
 
 		if($this->request->is('post')) {
 			if($this->Auth->login()) {
-				$this->Session->setFlash("Vous êtes connecté", "notif"); 
 				$this->redirect('/Blog');
+				$this->Session->setFlash("Vous êtes connecté", "notif"); 
 		}
 		 else {
-			$this->Session->setFlash("Votre login ou votre mot de passe est mauvais"); 
-						
+			#$this->Session->setFlash("Votre login ou votre mot de passe est mauvais"); 
+			echo "HEY FDP CALME TOI";			
 		}
 	}
 
 	 }
 
+function logout() {
+	$this->Auth->logout();
+	$this->redirect($this->referer('/'));
+	
+}
 
 /**
  * index method
@@ -79,7 +84,7 @@ class UsersController extends AppController {
 
 		if($this->User->save($tableau, true, array('login', 'nom', 'prenom', 'password', 'email', 'ddn'))) {
 			
-			return $this->redirect('/');
+			return $this->redirect('/login');
 			$this->Session->setFlash("Votre inscription à été faite !", "notif", array('type' => 'success')); 
 
 		} else {

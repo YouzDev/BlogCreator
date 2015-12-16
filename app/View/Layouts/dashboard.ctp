@@ -40,6 +40,9 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version());
  <header>
     <p>Bienvenue sur My Creator Blog</p>
     <div id="profil">Déconnexion <?php echo $this->Html->image('close.png', ['alt' => "gerer"]) ?></div>
+    <?php if(AuthComponent::user('id')) { ?>
+    <h1><?php echo $this->Html->link("Se déconnecter", array('action' => 'logout', 'controller' => 'users')); ?></h1>
+    <?php } ?>
 </header>
 <div id="wrapper">
     <div id="tabs">
@@ -50,6 +53,11 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version());
         </ul>
         <div id="tabs_container">
             <div id="tabs-1">
+                <?php if(AuthComponent::user('id')) { ?>
+
+<h1><?php echo "Bonjour " . $this->Html->link(AuthComponent::user('login'), array('action' => 'edit', 'controller' => 'users')); ?></h1>
+            <h1><?php echo "Bonjour " . $this->Html->link(AuthComponent::user('prenom'), array('action' => 'edit', 'controller' => 'users')); ?></h1>
+
                 <?php echo $this->Form->create('User'); ?>
 
                 <?php echo __('Modifier information du compte'); ?>
@@ -75,6 +83,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version());
                         ?> -->
                         <!--  <?php echo $this->Form->end(__('Submit')); ?> -->
                     </div>
+                <?php } ?>
                     <div id="tabs-2">
                         <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor.Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor</p>
                     </div>
