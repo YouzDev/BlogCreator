@@ -32,14 +32,14 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
 
-	public $components = array(
+	public $components = array( 'Session', 'Cookie',
 		'RequestHandler',
 		'Auth' => array(
 			'loginRedirect' => array('controller' => 'Blog', 'action' => 'dashboard'),
-            'logoutRedirect' => array('controller' => 'Users', 'action' => 'login'),
+            'logoutRedirect' => array('controller' => 'Users', 'action' => 'logout'),
             'authenticate' => array(
 	            'Form' => array(
-	             	'fields' => array('username' => 'login'),
+	             	'fields' => array('username' => 'login', 'password' => 'password'),
 	                'passwordHasher' => array(
 	                    'className' => 'Simple'
 	                )

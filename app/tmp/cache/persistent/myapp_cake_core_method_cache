@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 1450283169
 a:2:{i:0;b:0;s:4:"name";a:5:{s:32:"0a27d99cb3596bef530df7b4c15476f0";s:22:"`bog_creator_database`";s:32:"160ec6147135dc0cb6ca956b08b2ec5b";s:7:"`blogs`";s:32:"4f7cfe6c79fd29514987e989b550211b";s:7:"`titre`";s:32:"831669deb653fd69299f4826920d7f17";s:13:"`description`";s:32:"387f46c3e589612e438dda1b84b85bee";s:8:"`auteur`";}}
+=======
+1450283099
+a:2:{i:0;b:0;s:4:"name";a:2:{s:32:"0a27d99cb3596bef530df7b4c15476f0";s:22:"`bog_creator_database`";s:32:"f3649c957e14a7a3004064606aa7b620";s:6:"`user`";}}
+>>>>>>> b4f651d234a3edea0a0f652c3da47dca06b2feb6

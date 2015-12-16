@@ -19,11 +19,17 @@ class UsersController extends AppController {
  *
  * @var array
  */
+<<<<<<< HEAD
 public $components = array('Paginator', 'Flash', 'Session');
 
+=======
+	#public $components = array('Paginator', 'Flash', 'Session');	
+	public $components = array('Session', 'Cookie', 'Auth');
+>>>>>>> b4f651d234a3edea0a0f652c3da47dca06b2feb6
 
 public function login() {
 
+<<<<<<< HEAD
 	if($this->request->is('post')) {
 		if($this->Auth->login()) {
 			$this->Session->setFlash("Vous êtes connecté", "notif"); 
@@ -32,11 +38,26 @@ public function login() {
 		else {
 			$this->Session->setFlash("Votre login ou votre mot de passe est mauvais"); 
 			
+=======
+		if($this->request->is('post')) {
+			if($this->Auth->login()) {
+				$this->redirect('/Blog');
+				$this->Session->setFlash("Vous êtes connecté", "notif"); 
+		}
+		 else {
+			#$this->Session->setFlash("Votre login ou votre mot de passe est mauvais"); 
+			echo "HEY FDP CALME TOI";			
+>>>>>>> b4f651d234a3edea0a0f652c3da47dca06b2feb6
 		}
 	}
 
 }
 
+function logout() {
+	$this->Auth->logout();
+	$this->redirect($this->referer('/'));
+	
+}
 
 /**
  * index method
@@ -79,7 +100,7 @@ public function inscription() {
 
 		if($this->User->save($tableau, true, array('login', 'nom', 'prenom', 'password', 'email', 'ddn'))) {
 			
-			return $this->redirect('/');
+			return $this->redirect('/login');
 			$this->Session->setFlash("Votre inscription à été faite !", "notif", array('type' => 'success')); 
 
 		} else {

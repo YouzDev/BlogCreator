@@ -6,22 +6,24 @@
 
 
        <div class="connexion">
-        <?php echo $this->Form->create('User'); ?>
-        <?php echo $this->Form->input('login', array('label' => "Login : ")); ?>
-        <?php echo $this->Form->input('password', array('label' => "Mot de passe : ")); ?>
-        <?php echo $this->Form->end("Se connecter"); ?>
+    
         <?php
         echo $this->Html->link(
-            'Pas encore de compte, Inscrit-toi ici !',
+            'Pas encore de compte, Inscris-toi ici !',
             '/Users/inscription/'
             );
             ?>
+            <p></p><br/>
+            <?php
+        echo $this->Html->link('Déjà un compte ?',
+            '/Users/login'
+            ); ?>
+            
         </div>
     </header>
 
     <nav>
         <div id="menu">
-            <p>ICI AFFICHAGE DES BLOGS EXISTANT</p>
 
         </div>
     </nav>
