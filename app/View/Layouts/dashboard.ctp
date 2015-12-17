@@ -45,6 +45,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version());
     <?php } ?>
 </header>
 <div id="wrapper">
+    <?php if(AuthComponent::user('id')) { ?>
     <div id="tabs">
         <ul>
             <li><a href="#tabs-1">Mon Profil <?php echo $this->Html->image('profil.png', ['alt' => "gerer"]) ?></a></li>
@@ -57,14 +58,18 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version());
 
 <h1><?php echo "Bonjour " . $this->Html->link(AuthComponent::user('login'), array('action' => 'edit', 'controller' => 'users')); ?></h1>
             <h1><?php echo "Bonjour " . $this->Html->link(AuthComponent::user('prenom'), array('action' => 'edit', 'controller' => 'users')); ?></h1>
-
+           <!--      <?php foreach($users as $user) {
+                    echo $user['User']['nom'];
+                }
+                ?> -->
                 <?php echo $this->Form->create('User'); ?>
 
                 <?php echo __('Modifier information du compte'); ?>
                 <?php
                 echo $this->Form->input('id'); ?>
+
                 <input type="text" id="" name="" value="Nom"/>
-                <input type="text" id="" name="" value="Prénom"/>
+                <input type="text" id="" name="" value="<?php echo $this->Html->link(AuthComponent::user('prenom')); ?>"/>
                 <input type="text" id="" name="" value="Email"/>
                 <input type="text" id="" name="" value="Login"/>
                 <input type="text" id="" name="" value="Mot De Passe"/>
@@ -93,6 +98,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version());
                 </div>
             </div>
         </div>
+        <?php } ?>
         <script type="text/javascript" src="js/tabulous.js"></script>
         <script type="text/javascript" src="js/js.js"></script>
     </body>

@@ -17852,3 +17852,33 @@ Stack Trace:
 #3 Z:\wamp\www\BlogCreator\lib\Cake\Core\App.php(906): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-12-17 15:55:22 Error: Fatal Error (4): syntax error, unexpected ''Auth'' (T_CONSTANT_ENCAPSED_STRING), expecting function (T_FUNCTION) in [Z:\wamp\www\BlogCreator\app\Controller\AppController.php, line 34]
+2015-12-17 15:55:22 Error: [FatalErrorException] syntax error, unexpected ''Auth'' (T_CONSTANT_ENCAPSED_STRING), expecting function (T_FUNCTION)
+Request URL: /BlogCreator/Users/login
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'Z:\\wamp\\www\\Blo...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'Z:\\wamp\\www\\Blo...', 34, Array)
+#2 Z:\wamp\www\BlogCreator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'Z:\\wamp\\www\\Blo...', 34, Array)
+#3 Z:\wamp\www\BlogCreator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-17 16:51:08 Error: Fatal Error (4): syntax error, unexpected ';' in [Z:\wamp\www\BlogCreator\app\View\Layouts\dashboard.ctp, line 69]
+2015-12-17 16:51:08 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /BlogCreator/Blog
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'Z:\\wamp\\www\\Blo...', 69)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'Z:\\wamp\\www\\Blo...', 69, Array)
+#2 Z:\wamp\www\BlogCreator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'Z:\\wamp\\www\\Blo...', 69, Array)
+#3 Z:\wamp\www\BlogCreator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-17 16:51:47 Error: Fatal Error (1): Call to undefined method View::Html() in [Z:\wamp\www\BlogCreator\app\View\Layouts\dashboard.ctp, line 69]
+2015-12-17 16:51:47 Error: [FatalErrorException] Call to undefined method View::Html()
+Request URL: /BlogCreator/Blog
+Stack Trace:
+#0 Z:\wamp\www\BlogCreator\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'Z:\\wamp\\www\\Blo...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'Z:\\wamp\\www\\Blo...', 69, Array)
+#2 Z:\wamp\www\BlogCreator\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'Z:\\wamp\\www\\Blo...', 69, Array)
+#3 Z:\wamp\www\BlogCreator\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

@@ -19,8 +19,8 @@ class UsersController extends AppController {
  *
  * @var array
  */
-	#public $components = array('Paginator', 'Flash', 'Session');	
-	public $components = array('Session', 'Cookie', 'Auth');
+	public $components = array('Paginator', 'Flash', 'Session');	
+	#public $components = array('Session', 'Cookie', 'Auth');
 
 	public function login() {
 
@@ -37,9 +37,9 @@ class UsersController extends AppController {
 
 	 }
 
-function logout() {
+	public function logout() {
 	$this->Auth->logout();
-	$this->redirect($this->referer('/'));
+	$this->redirect('/Users/login');
 	
 }
 
@@ -61,11 +61,29 @@ function logout() {
  * @return void
  */
 	public function view($id = null) {
-		if (!$this->User->exists($id)) {
+		/*if (!$this->User->exists($id)) {
 			throw new NotFoundException(__('Invalid user'));
 		}
 		$options = array('conditions' => array('User.' . $this->User->primaryKey => $id));
 		$this->set('user', $this->User->find('first', $options));
+		*/
+		if (!$id) {
+            throw new NotFoundException(__('Post non valide'));
+        }
+
+        $users = $this->Users->findById($id);
+        if (!$post) {
+            throw new NotFoundException(__('Post non valide'));
+        }
+        
+        if(!empty($this->data)) {
+            $this->Comment->save($this->data);
+            return $this->redirect('/Users/' . $id);
+           // $this->redirect('/posts');
+        }
+
+
+        $this->set('user', $users);
 	}
 
 /**

@@ -31,18 +31,17 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
-
 	public $components = array( 'Session', 'Cookie',
 		'RequestHandler',
 		'Auth' => array(
 			'loginRedirect' => array('controller' => 'Blog', 'action' => 'dashboard'),
             'logoutRedirect' => array('controller' => 'Users', 'action' => 'logout'),
             'authenticate' => array(
-	            'Form' => array(
-	             	'fields' => array('username' => 'login', 'password' => 'password'),
-	                'passwordHasher' => array(
-	                    'className' => 'Simple'
-	                )
+	            'Form' => array( 'userModel' => 'User',
+                                    'fields' => array(
+                                                        'username' => 'login',
+                                                        'password' => 'password'
+                                                        )
 	            )
 	        )
         )
