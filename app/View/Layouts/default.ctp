@@ -22,7 +22,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		<?php echo 'Blog Creatorz'; ?>
+		<?php echo 'Blog Creator'; ?>
 	</title>
 	<?php
 	echo $this->Html->meta('icon');
@@ -36,6 +36,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	echo $this->fetch('script');
 	?> 
 </head>
+<header></header>
 <body>
 	<div id="container">
 
@@ -47,9 +48,11 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 
 		<div id="footer">
 			
+
 			<p>
+
 			
-			</p>
+		
 		</div>
 
 	</div>

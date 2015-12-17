@@ -29,12 +29,14 @@ App::uses('AppController', 'Controller');
  */
 class BlogController extends AppController {
 
+	public $helpers = array('Html', 'Form', 'Flash');
+	public $components = array('Flash');
 /**
  * This controller does not use a model
  *
  * @var array
  */
-	public $uses = array();
+public $uses = array();
 /**
  * Displays a view
  *
@@ -43,47 +45,74 @@ class BlogController extends AppController {
  * @throws NotFoundException When the view file could not be found
  *	or MissingViewException in debug mode.
  */
-	public function display() {
-		$path = func_get_args();
+public function display() {
+	$path = func_get_args();
 
-		$count = count($path);
-		if (!$count) {
-			return $this->redirect('/');
-		}
-		$page = $subpage = $title_for_layout = null;
-
-		if (!empty($path[0])) {
-			$page = $path[0];
-		}
-		if (!empty($path[1])) {
-			$subpage = $path[1];
-		}
-		if (!empty($path[$count - 1])) {
-			$title_for_layout = Inflector::humanize($path[$count - 1]);
-		}
-		$this->set(compact('page', 'subpage', 'title_for_layout'));
-
-		try {
-			$this->render(implode('/', $path));
-		} catch (MissingViewException $e) {
-			if (Configure::read('debug')) {
-				throw $e;
-			}
-			throw new NotFoundException();
-		}
+	$count = count($path);
+	if (!$count) {
+		return $this->redirect('/');
 	}
-	
-	public function dashboard(){		
-		$this->set(
-			array(
-				'title_for_layout' => 'Tableau de bord',
-				'contenu_test' => 'Tableau de bord'
+	$page = $subpage = $title_for_layout = null;
+
+	if (!empty($path[0])) {
+		$page = $path[0];
+	}
+	if (!empty($path[1])) {
+		$subpage = $path[1];
+	}
+	if (!empty($path[$count - 1])) {
+		$title_for_layout = Inflector::humanize($path[$count - 1]);
+	}
+	$this->set(compact('page', 'subpage', 'title_for_layout'));
+
+	try {
+		$this->render(implode('/', $path));
+	} catch (MissingViewException $e) {
+		if (Configure::read('debug')) {
+			throw $e;
+		}
+		throw new NotFoundException();
+	}
+}
+
+public function dashboard(){		
+	$this->set(
+		array(
+			'title_for_layout' => 'Tableau de bord',
+			'contenu_test' => 'Tableau de bord'
 			)
 		);
-/*		$user = $this->Session->read(['User']['nom']);*/
-        $this->layout = 'dashboard';
+	/*		$user = $this->Session->read(['User']['nom']);*/
+	$this->layout = 'dashboard';
+}
+
+public function index() {
+	$this->set('Blog', $this->Blog->find('all'));
+}
+
+public function view($id) {
+	if (!$id) {
+		throw new NotFoundException(__('Invalid blog'));
 	}
-	
+
+	$Blog = $this->Blog->findById($id);
+	if (!$Blog) {
+		throw new NotFoundException(__('Invalid blog'));
+	}
+	$this->set('Blog', $Blog);
+}
+
+public function ajouter() {
+	if ($this->request->is('post')) {
+		$this->Blog->create();
+		if ($this->Blog->save($this->request->data)) {
+			$this->Flash->success(__('Votre Blog à été crée.'));
+			return $this->redirect(array('action' => 'ajouter'));
+		}
+		$this->Flash->error(__('Erreur lors de lajout du blog.'));
+	}
+}
+
 }
 
 ?>
