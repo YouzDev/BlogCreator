@@ -48,18 +48,13 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 
 		<div id="footer">
 			
-<<<<<<< HEAD
-		
-=======
+
 			<p>
->>>>>>> b4f651d234a3edea0a0f652c3da47dca06b2feb6
+
 			
 		
 		</div>
-<<<<<<< HEAD
-=======
 
->>>>>>> b4f651d234a3edea0a0f652c3da47dca06b2feb6
 	</div>
 </body>
 </html>

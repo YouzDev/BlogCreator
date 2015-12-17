@@ -40,11 +40,11 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version());
     ?>
 </head>
 <body>
-   <header>
+ <header>
     <p>Bienvenue sur My Creator Blog</p>
     <div id="profil">Déconnexion <?php echo $this->Html->image('close.png', ['alt' => "gerer"]) ?></div>
     <?php if(AuthComponent::user('id')) { ?>
-    <h1><?php echo $this->Html->link("Se déconnecter", array('action' => 'logout', 'controller' => 'users')); ?></h1>
+    
     <?php } ?>
 </header>
 <div id="wrapper">
@@ -58,8 +58,8 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version());
             <div id="tabs-1">
                 <?php if(AuthComponent::user('id')) { ?>
 
-<h1><?php echo "Bonjour " . $this->Html->link(AuthComponent::user('login'), array('action' => 'edit', 'controller' => 'users')); ?></h1>
-            <h1><?php echo "Bonjour " . $this->Html->link(AuthComponent::user('prenom'), array('action' => 'edit', 'controller' => 'users')); ?></h1>
+                <h1><?php echo "Bonjour " . $this->Html->link(AuthComponent::user('login'), array('action' => 'edit', 'controller' => 'users')); ?></h1>
+                <h1><?php echo "Bonjour " . $this->Html->link(AuthComponent::user('prenom'), array('action' => 'edit', 'controller' => 'users')); ?></h1>
 
                 <?php echo $this->Form->create('User'); ?>
 
@@ -74,37 +74,27 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version());
                 <input type="date" id="" name="" value="Date"/>
                 <input type="text" id="" name="" value="Adresse"/>
                 <button type="submit">Valider</button>
-                       <!--  echo $this->Form->input('nom');
-                        echo $this->Form->input('prenom');
-                        echo $this->Form->input('email');
-                        echo $this->Form->input('login');
-                        echo $this->Form->input('mdp');
-                        echo $this->Form->input('ddn');
-                        echo $this->Form->input('adresse');
-                        echo $this->Form->input('code_postal');
-                        echo $this->Form->input('avatar');
-                        ?> -->
-                        <!--  <?php echo $this->Form->end(__('Submit')); ?> -->
-                    </div>
-                <?php } ?>
-                    <div id="tabs-2">
-                        <button type="submit"><?php
-        echo $this->Html->link(
-            'CRÉER UN NOUVEAU BLOG',
-            '/Blog/ajouter/'
-            );
-            ?></button>
+
+            </div>
+            <?php } ?>
+            <div id="tabs-2">
+                <button type="submit"><?php
+                echo $this->Html->link(
+                    'CRÉER UN NOUVEAU BLOG',
+                    '/Blog/ajouter/'
+                    );
+                    ?></button>
 
 
-                    </div>
-                    <div id="tabs-3">
-                        <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem.</p><p> Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodaleseros massa ut dolor.Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget.</p>
-                    </div>
+                </div>
+                <div id="tabs-3">
+                    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem.</p><p> Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodaleseros massa ut dolor.Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolorMorbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget.</p>
                 </div>
             </div>
         </div>
+    </div>
 
-        <script type="text/javascript" src="js/tabulous.js"></script>
-        <script type="text/javascript" src="js/js.js"></script>
-    </body>
-    </html>
+    <script type="text/javascript" src="js/tabulous.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>

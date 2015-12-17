@@ -1,7 +1,2 @@
-<<<<<<< HEAD
-1450283169
-a:2:{i:0;b:0;s:4:"name";a:5:{s:32:"0a27d99cb3596bef530df7b4c15476f0";s:22:"`bog_creator_database`";s:32:"160ec6147135dc0cb6ca956b08b2ec5b";s:7:"`blogs`";s:32:"4f7cfe6c79fd29514987e989b550211b";s:7:"`titre`";s:32:"831669deb653fd69299f4826920d7f17";s:13:"`description`";s:32:"387f46c3e589612e438dda1b84b85bee";s:8:"`auteur`";}}
-=======
-1450283099
-a:2:{i:0;b:0;s:4:"name";a:2:{s:32:"0a27d99cb3596bef530df7b4c15476f0";s:22:"`bog_creator_database`";s:32:"f3649c957e14a7a3004064606aa7b620";s:6:"`user`";}}
->>>>>>> b4f651d234a3edea0a0f652c3da47dca06b2feb6
+1450360570
+a:3:{i:0;b:0;s:4:"name";a:11:{s:32:"0a27d99cb3596bef530df7b4c15476f0";s:22:"`bog_creator_database`";s:32:"f3649c957e14a7a3004064606aa7b620";s:6:"`user`";s:32:"84aed5ca7734df237971a8964bd0217a";s:11:"`User`.`id`";s:32:"5eb7086bee62ed230623a03fc5591b0a";s:14:"`User`.`login`";s:32:"97c268dcd8412cd254419ed9b5f0d32e";s:14:"`User`.`email`";s:32:"46bea0d8cb0ffa1c5c7f63ad1e39035b";s:17:"`User`.`password`";s:32:"85baf3c4eb9fcdcdd33aa1c4101eff13";s:12:"`User`.`ddn`";s:32:"15ce1e1d8359187032576a20063bdab9";s:12:"`User`.`nom`";s:32:"ea071ac54948134f9d6838abed9e6a4d";s:15:"`User`.`prenom`";s:32:"f7a7cc0c43a4e0bc726ce62db4738e46";s:16:"`User`.`id_blog`";s:32:"eb9b37fa6fe3e5c49f921ddcd721b306";s:6:"`User`";}s:6:"fields";a:1:{s:32:"88f6e593e276fbc1f8bd2ca0963beb08";a:8:{i:0;s:11:"`User`.`id`";i:1;s:14:"`User`.`login`";i:2;s:14:"`User`.`email`";i:3;s:17:"`User`.`password`";i:4;s:12:"`User`.`ddn`";i:5;s:12:"`User`.`nom`";i:6;s:15:"`User`.`prenom`";i:7;s:16:"`User`.`id_blog`";}}}
